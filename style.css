@@ -108,9 +108,14 @@ ul li:hover {
 }
 
 .containner_conteudo_image {
-  display: block;
+  display: flex;
+}
+
+.containner_conteudo_image_img img {
   width: 100%;
-  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top right;
 }
 
 .containner_conteudo_vantagem {
